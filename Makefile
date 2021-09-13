@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: awali-al <awali-al@student.42.fr>          +#+  +:+       +#+         #
+#    By: awali-al <awali-al@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/16 02:54:12 by awali-al          #+#    #+#              #
-#    Updated: 2019/12/17 23:56:55 by awali-al         ###   ########.fr        #
+#    Updated: 2021/09/13 13:23:35 by awali-al         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ ft_memalloc.o ft_memcpy.o ft_putchar.o ft_putnbr.o ft_strcat.o ft_strcpy.o \
 ft_striter.o ft_strlen.o ft_strncmp.o ft_strnew.o ft_strstr.o ft_toupper.o \
 ft_isalnum.o ft_isprint.o ft_lstdel.o ft_lstmap.o ft_memccpy.o ft_memdel.o \
 ft_putchar_fd.o ft_putnbr_fd.o ft_strchr.o ft_strdel.o ft_striteri.o ft_strmap.o \
-ft_strncpy.o ft_strnstr.o ft_strsub.o get_next_line.o arrdup.o
+ft_strncpy.o ft_strnstr.o ft_strsub.o get_next_line.o arrdup.o ext_check.o
 
 HEADER = libft.h
 

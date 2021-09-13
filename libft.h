@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: awali-al <awali-al@student.42.fr>          +#+  +:+       +#+        */
+/*   By: awali-al <awali-al@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/11 02:37:02 by awali-al          #+#    #+#             */
-/*   Updated: 2020/01/18 20:35:36 by awali-al         ###   ########.fr       */
+/*   Updated: 2021/09/13 13:23:06 by awali-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,8 +72,8 @@ void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 char				*ft_strjoin(const char *s1, const char *s2);
 size_t				ft_strlcat(char *dst, const char *src, size_t n);
 size_t				ft_strlen(const char *s);
-char				*ft_strmap(const char *s, char(*f)(char));
-char				*ft_strmapi(const char *s, char(*f)(unsigned int, char));
+char				*ft_strmap(const char *s, char (*f)(char));
+char				*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 char				*ft_strncat(char *dest, const char *src, size_t n);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 char				*ft_strncpy(char *dest, const char *src, size_t n);
@@ -92,5 +92,6 @@ int					ft_toupper(int c);
 int					get_next_line(const int fd, char **line);
 char				**arrdup(char **src);
 char				**split_white_spaces(char *str);
+int					ext_check(char *file, char *extention);
 
 #endif
